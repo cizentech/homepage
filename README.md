@@ -1,6 +1,6 @@
 # homepage
 
-https://cizentech.github.io/homepage
+https://cizentech.github.io/home
 
 
 
