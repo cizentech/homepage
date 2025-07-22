@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>CIZEN TECH</title>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css" />
+</head>
+<body>
+  <div id="app">Loading...</div>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script>
+    window.$docsify = {
+      name: '',
+      subMaxLevel: 2,
+      loadSidebar: true,
+    };
+  </script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const logo = document.createElement('div');
+      logo.innerHTML = '<a href="#/README"><img src="img/cizentech-logo-195x88-trans.png" alt="Logo" style="height:80px; margin:10px;">';
+      const sidebar = document.querySelector('.sidebar');
+      if (sidebar) sidebar.insertBefore(logo, sidebar.firstChild);
+    });
+  </script>
+</body>
+</html>
